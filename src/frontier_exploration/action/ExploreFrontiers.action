@@ -1,0 +1,8 @@
+# goal
+---
+# result
+bool successful
+string reason
+---
+# feedback
+int32 frontiers_explored

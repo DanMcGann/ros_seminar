@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+import frontier_exploration
+import rospy
+'''
+    Main method for Exploration Server. 
+'''
+if __name__ == '__main__':
+    # Setup the node
+    rospy.init_node('frontier_exploration_server')
+    server = frontier_exploration.server.ExploreServer()
+    rospy.spin()  # Run. Wait for and respond to messages indefinitely
